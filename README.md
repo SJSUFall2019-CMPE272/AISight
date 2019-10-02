@@ -1,4 +1,4 @@
-Proposed Project Ideas:
+﻿Proposed Project Ideas:
 
 1. Name - AIsight
 
@@ -23,12 +23,12 @@ Android
 Computer Vision for Image Captioning : Keras, OpenCV
 Natural Language Processing for Text Summarization: NLTK, TensorFlow, Gensim
 Text-to-speech generator (IBM Watson/GoogleTextToSpeechAPI/Amazon Polly)
--------------------------------------------------------------------------------------------
-Idea description AIsight-
+
+IDEA DESCRIPTION AISIGHT-
 
 AIsight app will work as a virtual companion which will describe blind people what is in front of them.
 
-It acts a person, describing what objects are  in front of them and thereby giving him an idea/warning them of where they are and what is right ahead of them.  
+It acts a person, describing what objects are  in front of them and thereby giving him an idea/warning them of where they are and what is right ahead of them.
 
 Basically it describes a live video or any video for that matter -
 
@@ -48,7 +48,6 @@ Real-time Video/Scene Understanding. ( We plan to achieve real time response/ re
 
 kaggle competition link -
 https://www.kaggle.com/c/youtube8m-2019
-
 
 2. ELISA 
 
