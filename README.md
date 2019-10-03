@@ -9,20 +9,6 @@ Problem Statement - How do you help your visually impaired friends see the world
 Proposed Solution - How does AIsight work?
 AIsight describes the ongoing events captured through camera. This will help visually impaired people know about their surroundings and better equip them with details.
 
-Logical Steps of Proposed solution:
-
-Step 1: When the user scans the surroundings using camera, it is taken as an input.
-Step 2: Image Captioning engine will then generate a caption for an image frame of the video after every few frames repeatedly.
-Step 3: These multiple captions will be summarized by Text summarization engine.
-Step 4: The obtained caption is converted to speech by TextToSpeech Engine.
-Step 5: Eventually, it gives you a spoken description of surroundings.	
-
-Tech Stack:
-
-Android
-Computer Vision for Image Captioning : Keras, OpenCV
-Natural Language Processing for Text Summarization: NLTK, TensorFlow, Gensim
-Text-to-speech generator (IBM Watson/GoogleTextToSpeechAPI/Amazon Polly)
 
 IDEA DESCRIPTION AISIGHT-
 
@@ -49,3 +35,18 @@ Real-time Video/Scene Understanding. ( We plan to achieve real time response/ re
 kaggle competition link -
 https://www.kaggle.com/c/youtube8m-2019
 
+Logical Steps of Proposed solution:
+
+Step 1: When the user scans the surroundings using camera, it is taken as an input.
+Step 2: Image Captioning engine will then generate a caption for an image frame of the video after every few frames repeatedly.
+Step 3: These multiple captions will be summarized by Text summarization engine.
+Step 4: The obtained caption is converted to speech by TextToSpeech Engine.
+Step 5: Eventually, it gives you a spoken description of surroundings.	
+
+
+Tech Stack:
+
+Android
+Computer Vision for Image Captioning : Keras, OpenCV
+Natural Language Processing for Text Summarization: NLTK, TensorFlow, Gensim
+Text-to-speech generator (IBM Watson/GoogleTextToSpeechAPI/Amazon Polly)
