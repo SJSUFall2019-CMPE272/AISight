@@ -27,7 +27,8 @@ A blind person is walking on a street, the app accessing the rear camera will pr
 
 # **Architecture Diagram**
 
-![alt text](https://github.com/SJSUFall2019-CMPE272/AISight/tree/master/Images/AIsight_Architecture.png "Architecture")
+![architecture]
+(https://github.com/SJSUFall2019-CMPE272/AISight/blob/master/Images/AIsight_Architecture.pngg)
 
 # **Technology Stack**
 
