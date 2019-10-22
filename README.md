@@ -27,7 +27,7 @@ Let's assume a visually impaired person is walking on a street, and wants to kno
 
 # **Architecture Diagram**
 
-<img src="Images/AIsight_Architecture.png"/>
+<img src="Images/272project.png"/>
 
 # **Market Research**
 
