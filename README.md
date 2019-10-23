@@ -19,10 +19,10 @@ Let's assume a visually impaired person is walking on a street, and wants to kno
 
 **Logical Steps of the Proposed solution:**
 
-1. When the user scans the surroundings using camera, it is taken as an input.
-2. Image Captioning engine will then generate a caption for an image frame of the video after every few frames repeatedly.
-3. These multiple captions will be summarized by Text summarization engine.
-4. The obtained caption is converted to speech by TextToSpeech Engine.
+1. When the user scans the surroundings using camera component/mobile, it is taken as an input. This input is passed to Image Captioning Engine.
+2. Image Captioning Engine will then repeatedly generate a caption for every image frame of the video after every few frames.
+3. These multiple captions are fed as input to a Text Captioning System which summarizes these into one single Text Caption which describe the events in surrounds.
+4. The obtained caption is then converted to speech by TextToSpeech Engine.
 5. Eventually, it gives you a spoken description of surroundings.	
 
 # **Architecture Diagram**
