@@ -36,7 +36,7 @@ We are in a discussion with a few organizations namely, **LightHouse: For the Bl
 ### **Technology Stack**
 
 * **Android / Raspberry Pi**
-We are yet to finalize the client end device (Android App or Raspberry Pi based device) to mount the backend logicbase based on the suggestions with 'LightHouse: For the Blind and Visually Impaired' Organization.
+We are yet to finalize the client end device (Android App or Raspberry Pi based device) to mount the backend logicbase based on the suggestions with 'LightHouse: For the Blind and Visually Impaired' Organization. We are planning on using Raspberry Pi 4 to ship it as a standalone device with camera module and bluetooth audio which connects to your choice of bluetooth enabled audio device.(speaker, phone). It will be exciting to use a R pi and 
 
 * **OpenCV**
 Image preprocessing will be done using OpenCV.
