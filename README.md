@@ -4,21 +4,20 @@ Helping you see the world!
 ### **How does AIsight work?**
 AIsight describes the ongoing events captured through camera. This will help visually impaired people know about their surroundings and better equip them with details.
 
-#### **Who is AISight for?**
+### **Who is AISight for?**
 People with Visual Impairment / Blindness
 
-# **Abstract**
+### **Abstract**
 How do you help your visually impaired friends see the world? We propose a solution - AISight, which acts as an all-time companion by describing the events happening in your surroundings.
 AIsight is a virtual companion which will describe what is in front of you(audience being visually impaired people).
 
 For instance,
-
 Let's assume a visually impaired person is walking on a street, and wants to know what's in the surroundings, AISight will process the live video and describe what is going on at that moment in front of the person.
 
-**Why Us?**
+### **Why Us?**
 There are applications in market which identify the objects in the surroundings but what makes us different is the scene description which will help the person understand the surroundings better in real time. We will try to achieve a near real time audio description from the streaming video.
 
-**Logical Steps of the Proposed solution:**
+### **Logical Steps of the Proposed solution:**
 
 1. When the user scans the surroundings using camera component/mobile, it is taken as an input. This input is passed to Image Captioning Engine.
 2. Image Captioning Engine will then repeatedly generate a caption for every image frame of the video after every few frames.
@@ -26,15 +25,15 @@ There are applications in market which identify the objects in the surroundings 
 4. The obtained caption is then converted to speech by TextToSpeech Engine.
 5. Eventually, it gives you a spoken description of surroundings.	
 
-# **Architecture Diagram**
+### **Architecture Diagram**
 
 <img src="Images/272project.png"/>
 
-# **Market Research**
+### **Market Research**
 
 We are in a discussion with a few organizations namely, **LightHouse: For the Blind and Visually Impaired** and **Vision - Beyond sight** ,to validate the project idea, design, usability, scope and incorporating newer suggestions as mentioned by them. 
 
-# **Technology Stack**
+### **Technology Stack**
 
 * **Android / Raspberry Pi**
 We are yet to finalize the client end device (Android App or Raspberry Pi based device) to mount the backend logicbase based on the suggestions with 'LightHouse: For the Blind and Visually Impaired' Organization.
@@ -54,7 +53,7 @@ Keras will be used in the Text summarization because of its rich feature set alo
 * **GoogleTextToSpeechAPI**
 This Library will be used to convert Text to Speech as the final output.
 
-# **Team**
+### **Team**
 
 * Mihir Patel 
 * Nishit Doshi
