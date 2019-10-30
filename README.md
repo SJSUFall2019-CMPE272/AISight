@@ -54,7 +54,7 @@ Keras will be used in the Text summarization because of its rich feature set alo
 * **GoogleTextToSpeechAPI**
 This Library will be used to convert Text to Speech as the final output.
 
-# **Team **
+# **Team**
 
 * Mihir Patel 
 * Nishit Doshi
