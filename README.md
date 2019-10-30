@@ -4,7 +4,7 @@ Helping you see the world!
 ### **How does AIsight work?**
 AIsight describes the ongoing events captured through camera. This will help visually impaired people know about their surroundings and better equip them with details.
 
-#### **Who's the Audience**
+#### **Who is AISight for?**
 People with Visual Impairment / Blindness
 
 # **Abstract**
@@ -16,7 +16,7 @@ For instance,
 Let's assume a visually impaired person is walking on a street, and wants to know what's in the surroundings, AISight will process the live video and describe what is going on at that moment in front of the person.
 
 **Why Us?**
-There are applications in market which identify the objects in surrounding but what makes us different is the scene description which will help the person understand the surroundings better in real time. We will try to achieve a near real time audio description from the streaming video.
+There are applications in market which identify the objects in the surroundings but what makes us different is the scene description which will help the person understand the surroundings better in real time. We will try to achieve a near real time audio description from the streaming video.
 
 **Logical Steps of the Proposed solution:**
 
@@ -56,8 +56,8 @@ This Library will be used to convert Text to Speech as the final output.
 
 # **Team **
 
-Mihir Patel 
-Nishit Doshi
-Jainish Parikh
-Apoorva Banubakode
+* Mihir Patel 
+* Nishit Doshi
+* Jainish Parikh
+* Apoorva Banubakode
 
