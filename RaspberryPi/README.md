@@ -1,4 +1,4 @@
-# **Welcome to AISight-RaspberryPi documentation!**
+# **Welcome to AISight-RaspberryPi Documentation!**
 
 ## Raspberry Pi Specifications:
 * Version: Raspberry Pi 3
@@ -15,7 +15,7 @@
 ## Operating System:
 Noobs OS 3.2.1
 
-## Steps followed to implement Noobs OS based on Debian Linux OS on Raspberry Pi.
+## Steps to install Noobs OS on Raspberry Pi:
 * Download Noobs OS
 * Format SD Card
 * Add Noobs OS to the SD Card
