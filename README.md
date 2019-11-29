@@ -27,7 +27,7 @@ There are applications in market which identify the objects in the surroundings 
 
 ### **Architecture Diagram**
 
-<img src="Images/272project.png"/>
+<img src="Images/AiSightArchitecture.png"/>
 
 ### **Market Research**
 
