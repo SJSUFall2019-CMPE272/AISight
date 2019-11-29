@@ -28,6 +28,21 @@ There are applications in market which identify the objects in the surroundings 
 
 <img src="Images/AiSightArchitecture.png"/>
 
+### **Different Approaches**
+
+#### On-edge:
+Model Running on Raspberry Pi
+
+Drawbacks: Takes 40-45 seconds to generate caption for an image.
+
+#### On-cloud:(using scp):
+Raspberry Pi sends images and recieves text using scp which is asynchronus and thus captions generated are not in proper order.
+
+
+#### On-cloud(using flask):
+Flask is used on server-side to receive images and generate captions which ensures synchronization. 
+
+
 ### **Market Research**
 
 We are in a discussion with a few organizations namely, **LightHouse: For the Blind and Visually Impaired** and **Vision - Beyond sight** ,to validate the project idea, design, usability, scope and incorporating newer suggestions as mentioned by them. 
