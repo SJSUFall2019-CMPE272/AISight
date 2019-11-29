@@ -1,4 +1,0 @@
-Flask
-requests
-opencv-python
-numpy
