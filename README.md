@@ -19,10 +19,9 @@ There are applications in market which identify the objects in the surroundings 
 
 ### **Logical Steps of the Proposed solution:**
 
-1. When the user scans the surroundings using camera component/mobile, it is taken as an input. This input is passed to Image Captioning Engine.
-2. Image Captioning Engine will then repeatedly generate a caption for every image frame of the video after every few frames.
-3. These multiple captions are fed as input to a Text Captioning System which summarizes these into one single Text Caption which describe the events in surrounds.
-4. The obtained caption is then converted to speech by TextToSpeech Engine.
+1. When the user scans the surroundings using Raspberrypi, image frames are sent to Image Captioning Engine on the server.
+2. Image Captioning Engine will then repeatedly generate a caption for every image frame and sends it back to the Raspberrypi.
+4. The obtained caption is then converted to speech by Pico2wave on Raspberrypi.
 5. Eventually, it gives you a spoken description of surroundings.	
 
 ### **Architecture Diagram**
@@ -35,23 +34,27 @@ We are in a discussion with a few organizations namely, **LightHouse: For the Bl
 
 ### **Technology Stack**
 
-* **Android / Raspberry Pi**
-We are yet to finalize the client end device (Android App or Raspberry Pi based device) to mount the backend logicbase based on the suggestions with 'LightHouse: For the Blind and Visually Impaired' Organization. We are planning on using Raspberry Pi 4 to ship it as a standalone device with camera module and bluetooth audio which connects to your choice of bluetooth enabled audio device.(speaker, phone). It will be exciting to use R pi, to perform synthesis on the edge device itself to reduce latency in operations.
+* **Raspberry Pi**
+Rspberry Pi 3 is used to capture images and send it to flask server running on cloud. It receives the text generated in cloud and gives speech as output. 
 
 * **OpenCV**
-Image preprocessing will be done using OpenCV.
+Machine Leaning model uses OpenCV for image processing.
 
-* **Tensorflow**
-Tensorflow / Tensorflow Lite will be used in Image captioning engine as well as Text summarization engine.
+* **Flask**
+Server uses flask framework.
 
-* **NLTK / Gensim**
-These Natural language processing libraries will be used for text preprocessing.
+* **Lua, Torch**
+The pre-trained Machine Learning model is written in Lua and uses torch.
 
-* **Keras**
-Keras will be used in the Text summarization because of its rich feature set along with Tensorflow.
+* **Pico2wave**
+Text-to-speech conversion is done on raspberrypi using Pico2wave
 
-* **GoogleTextToSpeechAPI**
-This Library will be used to convert Text to Speech as the final output.
+* **Docker**
+Machine learning model which takes image as input and generates text is Dockerised and runs on GCP. 
+
+* **Google Cloud Platform**
+It is the cloud service which hosts server side code for AISight.
+
 
 ### **Team**
 
