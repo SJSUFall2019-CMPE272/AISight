@@ -4,7 +4,7 @@ Design Thinking
 
 ### **As If**
 
-<img src="./Images/As_ispng"/>
+<img src="./Images/As_is.png"/>
 
 
 ### **Big Ideas**
