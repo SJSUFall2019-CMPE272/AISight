@@ -1,10 +1,13 @@
 # **AIsight**
 
-Design Thinking 
+## Design Thinking 
+
+
+<img src="Images/AiSightArchitecture.png"/>
 
 ### **As If**
 
-<img src="./Images/As_is.png"/>
+<img src="./Images/272project.png"/>
 
 
 ### **Big Ideas**
