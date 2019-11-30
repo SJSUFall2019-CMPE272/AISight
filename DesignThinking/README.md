@@ -2,25 +2,19 @@
 
 ## Design Thinking 
 
-
-<img src="Images/AiSightArchitecture.png"/>
-
 ### **As If**
 
-<img src="./Images/272project.png"/>
-
+<img src="https://github.com/SJSUFall2019-CMPE272/AISight/tree/master/Images/272project.png"/>
 
 ### **Big Ideas**
 
-<img src="./Images/BigIdeas.png"/>
-
+<img src="https://github.com/SJSUFall2019-CMPE272/AISight/tree/master/Images/BigIdeas.png"/>
 
 ### **To Be**
 
-<img src="./Images/ToBe.png"/>
-
+<img src="https://github.com/SJSUFall2019-CMPE272/AISight/tree/master/Images/ToBe.png"/>
 
 ### **Parking Lot**
 
-<img src="./Images/ParkingLot.png"/>
+<img src="https://github.com/SJSUFall2019-CMPE272/AISight/tree/master/Images/ParkingLot.png"/>
 
