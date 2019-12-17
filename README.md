@@ -42,11 +42,6 @@ Raspberry Pi sends images and recieves text using scp which is asynchronus and t
 #### On-cloud(using flask):
 Flask is used on server-side to receive images and generate captions which ensures synchronization. 
 
-
-### **Market Research**
-
-We are in a discussion with a few organizations namely, **LightHouse: For the Blind and Visually Impaired** and **Vision - Beyond sight** ,to validate the project idea, design, usability, scope and incorporating newer suggestions as mentioned by them. 
-
 ### **Technology Stack**
 
 * **Raspberry Pi**
